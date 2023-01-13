@@ -1,46 +1,48 @@
+import transport.Car;
+
 public class Main {
     public static void main(String[] args) {
         // Задача №1
         System.out.println("Задача №1");
 
         Car lada1 = new Car("Lada");
-        lada1.model = "Granta";
-        lada1.engineVolume = 1.7;
-        lada1.color = "желтый";
-        lada1.year = 2015;
-        lada1.country = "Россия";
+        lada1.setModel("Granta");
+        lada1.setEngineVolume(1.7);
+        lada1.setColor("желтый");
+        lada1.setYear(2015);
+        lada1.setCountry("Россия");
         System.out.println(lada1);
 
         Car audi1 = new Car("Audi");
-        audi1.model = "A8 50 L TDI quattro";
-        audi1.engineVolume = 3.0;
-        audi1.color = "черный";
-        audi1.year = 2020;
-        audi1.country = "Германия";
+        audi1.setModel("A8 50 L TDI quattro");
+        audi1.setEngineVolume(3.0);
+        audi1.setColor("черный");
+        audi1.setYear(2020);
+        audi1.setCountry("Германия");
         System.out.println(audi1);
 
         Car bmw1 = new Car("BMW");
-        bmw1.model = "Z8";
-        bmw1.engineVolume = 3.0;
-        bmw1.color = "черный";
-        bmw1.year = 2021;
-        bmw1.country = "Германия";
+        bmw1.setModel("Z8");
+        bmw1.setEngineVolume(3.0);
+        bmw1.setColor("черный");
+        bmw1.setYear(2021);
+        bmw1.setCountry("Германия");
         System.out.println(bmw1);
 
         Car kia1 = new Car("Kia");
-        kia1.model = "Sportage 4-го поколения";
-        kia1.engineVolume = 2.4;
-        kia1.color = "красный";
-        kia1.year = 2018;
-        kia1.country = "Южная Корея";
+        kia1.setModel("Sportage 4-го поколения");
+        kia1.setEngineVolume(2.4);
+        kia1.setColor("красный");
+        kia1.setYear(2018);
+        kia1.setCountry("Южная Корея");
         System.out.println(kia1);
 
         Car hyundai1 = new Car("Hyundai");
-        hyundai1.model = "Avante";
-        hyundai1.engineVolume = 1.6;
-        hyundai1.color = "оранжевый";
-        hyundai1.year = 2016;
-        hyundai1.country = "Южная Корея";
+        hyundai1.setModel("Avante");
+        hyundai1.setEngineVolume(1.6);
+        hyundai1.setColor("оранжевый");
+        hyundai1.setYear(2016);
+        hyundai1.setCountry("Южная Корея");
         System.out.println(hyundai1);
 
         // Задача №2
